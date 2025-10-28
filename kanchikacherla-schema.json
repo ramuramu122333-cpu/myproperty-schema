@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateListing",
+      "name": "Chaturbuja Infra Open Plots at Kanchikacherla",
+      "description": "CRDA approved open plots near Amaravati at Chevitikallu, Kanchikacherla. 40 ft CC roads, park, drainage, and bank loan assistance.",
+      "url": "https://myproperty.homes/locations-kanchikacherla-open-plots",
+      "image": "https://myproperty.homes/images/kanchikacherla-open-plots.jpg",
+      "offers": {
+        "@type": "Offer",
+        "price": "11000",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "seller": {
+        "@type": "Organization",
+        "name": "MyProperty.Homes",
+        "telephone": "+91-91607-04442",
+        "url": "https://myproperty.homes"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Kanchikacherla, Amaravati Capital Region"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chevitikallu",
+        "addressRegion": "NTR District",
+        "addressCountry": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the project CRDA approved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, this is a CRDA-approved open plot venture by Chaturbuja Infra located at Chevitikallu near Kanchikacherla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the plot sizes available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plots start from 134 sq yd onwards, priced at ₹11,000 per sq yd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What amenities are included?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The layout includes 40 ft CC roads, children’s park, jogging track, drainage, street lights, and bank loan assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which landmarks are nearby?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paritala Anjaneya Swamy Temple, Amaravati, Nandigama, Jaggayyapeta, Vijayawada, and the proposed Logistic Hub are nearby."
+          }
+        }
+      ]
+    }
+  ]
+}
