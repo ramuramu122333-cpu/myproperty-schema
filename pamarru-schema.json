@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateListing",
+      "name": "Open Plots in Pamarru – MyProperty.Homes",
+      "description": "DTCP approved open plots for sale in Pamarru, Krishna District. Developed layouts with 40 ft roads, drainage, park, and bank loan assistance. Ideal for investment near Bandar Road and Gudivada Highway.",
+      "url": "https://myproperty.homes/locations-pamarru-open-plots",
+      "image": "https://myproperty.homes/images/pamarru-open-plots.jpg",
+      "offers": {
+        "@type": "Offer",
+        "price": "8999",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "seller": {
+        "@type": "Organization",
+        "name": "MyProperty.Homes",
+        "telephone": "+91-91607-04442",
+        "url": "https://myproperty.homes"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Pamarru, Krishna District, Andhra Pradesh"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pamarru",
+        "addressRegion": "Krishna District",
+        "addressCountry": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where are these plots located in Pamarru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These open plots are located near Pamarru town in Krishna District, well connected to Bandar Road and Gudivada Highway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these plots DTCP approved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all layouts in Pamarru listed on MyProperty.Homes are DTCP approved and legally verified."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the current price per sq yard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plots in Pamarru are currently priced at ₹8,999 per sq yard onwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are bank loans available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all major banks provide loan assistance for Pamarru ventures listed on MyProperty.Homes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What amenities are provided in the Pamarru layouts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amenities include 40 ft CC roads, drainage, children’s park, avenue plantation, street lights, and clear title documents."
+          }
+        }
+      ]
+    }
+  ]
+}
