@@ -21,36 +21,37 @@
     ]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "RealEstateListing",
-    "name": "CRDA Approved Open Plots in Amaravathi Capital Region | MyProperty.Homes",
-    "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
-    "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Developed by MyProperty.Homes with 40 ft CC roads, drainage, parks, and loan options.",
-    "datePosted": "2025-10-29",
-    "availabilityStarts": "2025-10-29",
-    "offers": {
-      "@type": "Offer",
-      "price": "15000",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Amaravathi Capital Region",
-      "addressLocality": "Amaravathi",
-      "addressRegion": "Andhra Pradesh",
-      "postalCode": "522020",
-      "addressCountry": "IN"
-    },
-    "seller": {
-      "@type": "Organization",
-      "name": "MyProperty.Homes",
-      "url": "https://myproperty.homes",
-      "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
-    },
-    "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg"
+    {
+  "@context": "https://schema.org",
+  "@type": "RealEstateListing",
+  "name": "CRDA Approved Open Plots in Amaravathi Capital Region | MyProperty.Homes",
+  "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
+  "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Developed by MyProperty.Homes with 40 ft CC roads, drainage, parks, and loan options.",
+  "datePosted": "2025-10-29",
+  "availabilityStarts": "2025-10-29",
+  "offers": {
+    "@type": "Offer",
+    "price": "15000",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land"
   },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Amaravathi Capital Region",
+    "addressLocality": "Amaravathi",
+    "addressRegion": "Andhra Pradesh",
+    "postalCode": "522020",
+    "addressCountry": "IN"
+  },
+  "seller": {
+    "@type": "Organization",
+    "name": "MyProperty.Homes",
+    "url": "https://myproperty.homes",
+    "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
+  },
+  "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg"
+},
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -95,6 +96,7 @@
           "text": "Nearby landmarks include Secretariat Zone, VIT-AP, SRM University, Amaravathi ORR, and proposed IT & logistics corridors."
         }
       }
+      “Added optional fields to RealEstateListing (no warnings)”
     ]
   }
 ]
