@@ -13,31 +13,43 @@
     "logo": {
       "@type": "ImageObject",
       "url": "https://myproperty.homes/storage/my-properties-logo-1.png"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/myproperty.homes",
+      "https://www.instagram.com/myproperty.homes",
+      "https://www.youtube.com/@mypropertyhomes"
+    ]
   },
   {
     "@context": "https://schema.org",
     "@type": "RealEstateListing",
-    "name": "CRDA Approved Open Plots in Amaravathi | MyProperty.Homes",
+    "name": "CRDA Approved Open Plots in Amaravathi Capital Region | MyProperty.Homes",
     "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
-    "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Ventures by MyProperty.Homes with 40 ft CC roads, drainage, parks, and bank loans.",
+    "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Developed by MyProperty.Homes with 40 ft CC roads, drainage, parks, and loan options.",
+    "datePosted": "2025-10-29",
+    "availabilityStarts": "2025-10-29",
     "offers": {
       "@type": "Offer",
       "price": "15000",
       "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Amaravathi Capital Region",
+      "addressLocality": "Amaravathi",
+      "addressRegion": "Andhra Pradesh",
+      "postalCode": "522020",
+      "addressCountry": "IN"
     },
     "seller": {
       "@type": "Organization",
       "name": "MyProperty.Homes",
-      "url": "https://myproperty.homes"
+      "url": "https://myproperty.homes",
+      "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Amaravathi",
-      "addressRegion": "Andhra Pradesh",
-      "addressCountry": "India"
-    }
+    "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg"
   },
   {
     "@context": "https://schema.org",
@@ -56,7 +68,7 @@
         "name": "Are these plots CRDA approved?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, all projects featured here are CRDA-approved and legally verified by MyProperty.Homes."
+          "text": "Yes, all open plots listed on this page are CRDA approved and legally verified by MyProperty.Homes."
         }
       },
       {
@@ -64,15 +76,15 @@
         "name": "What amenities are available?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Each venture offers 40 ft CC roads, underground drainage, parks, street lighting, and bank loan assistance."
+          "text": "Each venture includes 40 ft CC roads, underground drainage, street lights, parks, and avenue plantation with bank loan facilities."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the starting price of open plots?",
+        "name": "What is the starting price of open plots in Amaravathi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open plots start from ₹15,000 per sq. yd depending on layout and location."
+          "text": "Plots in Amaravathi Capital Region start at ₹15,000 per sq. yd, depending on location and layout size."
         }
       },
       {
@@ -80,10 +92,9 @@
         "name": "Which landmarks are nearby?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nearby landmarks include Secretariat Zone, VIT-AP, SRM University, Amaravathi ORR, and proposed IT hubs."
+          "text": "Nearby landmarks include Secretariat Zone, VIT-AP, SRM University, Amaravathi ORR, and proposed IT & logistics corridors."
         }
       }
     ]
   }
 ]
-“Added RealEstateListing and FAQPage to Amaravathi schema”
