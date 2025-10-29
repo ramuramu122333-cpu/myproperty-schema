@@ -1,11 +1,26 @@
 [
   {
     "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "myproperty.homes",
+    "url": "https://myproperty.homes"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "myproperty.homes",
+    "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://myproperty.homes/storage/my-properties-logo-1.png"
+    }
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "RealEstateListing",
-    "name": "CRDA Approved Open Plots at Amaravathi – MyProperty.Homes",
-    "description": "Explore CRDA-approved open plots and ventures in Amaravathi Capital Region. Premium layouts with 40 ft CC roads, drainage, park, and bank loan options. Developed by trusted builders and promoted by MyProperty.Homes.",
-    "url": "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
-    "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
+    "name": "CRDA Approved Open Plots in Amaravathi | MyProperty.Homes",
+    "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
+    "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Ventures by MyProperty.Homes with 40 ft CC roads, drainage, parks, and bank loans.",
     "offers": {
       "@type": "Offer",
       "price": "15000",
@@ -15,17 +30,12 @@
     "seller": {
       "@type": "Organization",
       "name": "MyProperty.Homes",
-      "telephone": "+91-91607-04442",
       "url": "https://myproperty.homes"
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Amaravathi Capital Region, Andhra Pradesh"
     },
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Amaravathi",
-      "addressRegion": "Guntur District",
+      "addressRegion": "Andhra Pradesh",
       "addressCountry": "India"
     }
   },
@@ -38,7 +48,7 @@
         "name": "Where is Amaravathi located?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Amaravathi is the capital region of Andhra Pradesh, located between Vijayawada and Guntur, developed under the CRDA zone."
+          "text": "Amaravathi is located between Guntur and Vijayawada in Andhra Pradesh’s Capital Region under CRDA jurisdiction."
         }
       },
       {
@@ -46,7 +56,7 @@
         "name": "Are these plots CRDA approved?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, all open plots promoted by MyProperty.Homes in Amaravathi are CRDA-approved with clear title and layout approvals."
+          "text": "Yes, all projects featured here are CRDA-approved and legally verified by MyProperty.Homes."
         }
       },
       {
@@ -54,7 +64,7 @@
         "name": "What amenities are available?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Each layout includes 40 ft CC roads, underground drainage, parks, avenue plantation, and street lighting."
+          "text": "Each venture offers 40 ft CC roads, underground drainage, parks, street lighting, and bank loan assistance."
         }
       },
       {
@@ -62,7 +72,7 @@
         "name": "What is the starting price of open plots?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The open plots in Amaravathi start from ₹15,000 per sq. yd onwards, depending on location and layout size."
+          "text": "Open plots start from ₹15,000 per sq. yd depending on layout and location."
         }
       },
       {
@@ -70,9 +80,10 @@
         "name": "Which landmarks are nearby?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nearby landmarks include Amaravathi Secretariat, VIT-AP University, SRM University, and the upcoming capital zone developments."
+          "text": "Nearby landmarks include Secretariat Zone, VIT-AP, SRM University, Amaravathi ORR, and proposed IT hubs."
         }
       }
     ]
   }
 ]
+“Added RealEstateListing and FAQPage to Amaravathi schema”
