@@ -22,63 +22,73 @@
   },
   {
     "@context": "https://schema.org",
-    "@type": "RealEstateListing",
+    "@type": "Place",
+    "name": "Amaravathi Capital Region",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 16.5453,
+      "longitude": 80.515
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amaravathi",
+      "addressRegion": "Andhra Pradesh",
+      "addressCountry": "IN"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
     "name": "CRDA Approved Open Plots in Amaravathi Capital Region | MyProperty.Homes",
     "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
     "description": "CRDA approved open plots for sale in Amaravathi Capital Region near Secretariat, VIT-AP & SRM University. Developed by MyProperty.Homes with 40 ft CC roads, drainage, parks, and bank loan assistance.",
-    "datePosted": "2025-10-29",
-    "availabilityStarts": "2025-10-29",
-    "propertyType": "Open Plot",
-    "areaServed": "Amaravathi Capital Region",
-    "priceValidUntil": "2025-12-31",
+    "sku": "MPH-AMARAVATHI-001",
+    "brand": {
+      "@type": "Brand",
+      "name": "myproperty.homes"
+    },
     "image": [
       "https://myproperty.homes/images/amaravathi-open-plots.jpg"
     ],
-    "itemOffered": {
-      <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "DTCP Approved Open Plots in Amaravathi Capital Region",
-  "description": "myproperty.homes offers verified DTCP-approved open plots for sale in Amaravathi Capital Region with amenities like CC roads, drainage, parks, and bank loan assistance.",
-  "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
-  "brand": {
-    "@type": "Brand",
-    "name": "myproperty.homes"
-  },
-  "url": "https://myproperty.homes/",
-  "sku": "AMARAVATHI-OPEN-PLOT",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "INR",
-    "price": "12999",
-    "priceValidUntil": "2025-12-31",
-    "availability": "https://schema.org/InStock",
-    "url": "https://myproperty.homes/",
-    "seller": {
-      "@type": "Organization",
-      "name": "myproperty.homes",
-      "logo": "https://myproperty.homes/storage/my-properties-logo-1.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Amaravathi Capital Region",
-        "addressLocality": "Amaravathi",
-        "addressRegion": "Andhra Pradesh",
-        "postalCode": "522020",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-9160704442"
-    }
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Amaravathi Capital Region"
-  },
-  "category": "Real Estate > Land > Open Plot",
-  "keywords": "open plots in Amaravathi, DTCP approved plots, Amaravathi real estate, myproperty homes"
-}
-</script>
-
+    "category": "Real Estate > Land > Open Plot",
+    "keywords": "Amaravathi open plots, CRDA plots, Amaravathi land for sale, myproperty homes, real estate Amaravathi",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR",
+      "price": "15000",
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock",
+      "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
+      "seller": {
+        "@type": "RealEstateAgent",
+        "name": "myproperty.homes",
+        "url": "https://myproperty.homes/",
+        "logo": "https://myproperty.homes/storage/my-properties-logo-1.png",
+        "telephone": "+919160704442",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Amaravathi Capital Region",
+          "addressLocality": "Amaravathi",
+          "addressRegion": "Andhra Pradesh",
+          "postalCode": "522020",
+          "addressCountry": "IN"
+        }
+      }
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Amaravathi Capital Region"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 16.5453,
+      "longitude": 80.515
+    },
+    "mainEntityOfPage": "https://myproperty.homes/mypropertyhomes-open-plots-in-amaravathi-capital-region",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "37"
     }
   },
   {
