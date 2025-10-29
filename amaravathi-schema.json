@@ -35,35 +35,50 @@
       "https://myproperty.homes/images/amaravathi-open-plots.jpg"
     ],
     "itemOffered": {
-      "@type": "Product",
-      "name": "CRDA Approved Open Plot in Amaravathi",
-      "description": "Premium residential open plots for sale in Amaravathi under CRDA limits. Bank loan facility and clear title.",
-      "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
-      "brand": {
-        "@type": "Brand",
-        "name": "MyProperty.Homes"
-      }
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "15000",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land",
-      "seller": {
-        "@type": "Organization",
-        "name": "MyProperty.Homes",
-        "url": "https://myproperty.homes",
-        "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
-      }
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Amaravathi Capital Region",
-      "addressLocality": "Amaravathi",
-      "addressRegion": "Andhra Pradesh",
-      "postalCode": "522020",
-      "addressCountry": "IN"
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "DTCP Approved Open Plots in Amaravathi Capital Region",
+  "description": "myproperty.homes offers verified DTCP-approved open plots for sale in Amaravathi Capital Region with amenities like CC roads, drainage, parks, and bank loan assistance.",
+  "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "myproperty.homes"
+  },
+  "url": "https://myproperty.homes/",
+  "sku": "AMARAVATHI-OPEN-PLOT",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+    "price": "12999",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "url": "https://myproperty.homes/",
+    "seller": {
+      "@type": "Organization",
+      "name": "myproperty.homes",
+      "logo": "https://myproperty.homes/storage/my-properties-logo-1.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Amaravathi Capital Region",
+        "addressLocality": "Amaravathi",
+        "addressRegion": "Andhra Pradesh",
+        "postalCode": "522020",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-9160704442"
+    }
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Amaravathi Capital Region"
+  },
+  "category": "Real Estate > Land > Open Plot",
+  "keywords": "open plots in Amaravathi, DTCP approved plots, Amaravathi real estate, myproperty homes"
+}
+</script>
+
     }
   },
   {
