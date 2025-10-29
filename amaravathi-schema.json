@@ -31,12 +31,31 @@
     "propertyType": "Open Plot",
     "areaServed": "Amaravathi Capital Region",
     "priceValidUntil": "2025-12-31",
+    "image": [
+      "https://myproperty.homes/images/amaravathi-open-plots.jpg"
+    ],
+    "itemOffered": {
+      "@type": "Product",
+      "name": "CRDA Approved Open Plot in Amaravathi",
+      "description": "Premium residential open plots for sale in Amaravathi under CRDA limits. Bank loan facility and clear title.",
+      "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "MyProperty.Homes"
+      }
+    },
     "offers": {
       "@type": "Offer",
       "price": "15000",
       "priceCurrency": "INR",
       "availability": "https://schema.org/InStock",
-      "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land"
+      "url": "https://myproperty.homes/properties/bavadeep-sai-orr-gardens-farm-land",
+      "seller": {
+        "@type": "Organization",
+        "name": "MyProperty.Homes",
+        "url": "https://myproperty.homes",
+        "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
+      }
     },
     "address": {
       "@type": "PostalAddress",
@@ -45,14 +64,7 @@
       "addressRegion": "Andhra Pradesh",
       "postalCode": "522020",
       "addressCountry": "IN"
-    },
-    "seller": {
-      "@type": "Organization",
-      "name": "MyProperty.Homes",
-      "url": "https://myproperty.homes",
-      "logo": "https://myproperty.homes/storage/my-properties-logo-1.png"
-    },
-    "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg"
+    }
   },
   {
     "@context": "https://schema.org",
