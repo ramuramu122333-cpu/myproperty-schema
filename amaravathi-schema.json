@@ -1,0 +1,78 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateListing",
+    "name": "CRDA Approved Open Plots at Amaravathi – MyProperty.Homes",
+    "description": "Explore CRDA-approved open plots and ventures in Amaravathi Capital Region. Premium layouts with 40 ft CC roads, drainage, park, and bank loan options. Developed by trusted builders and promoted by MyProperty.Homes.",
+    "url": "https://myproperty.homes/locations-amaravathi-open-plots",
+    "image": "https://myproperty.homes/images/amaravathi-open-plots.jpg",
+    "offers": {
+      "@type": "Offer",
+      "price": "15000",
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock"
+    },
+    "seller": {
+      "@type": "Organization",
+      "name": "MyProperty.Homes",
+      "telephone": "+91-91607-04442",
+      "url": "https://myproperty.homes"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Amaravathi Capital Region, Andhra Pradesh"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Amaravathi",
+      "addressRegion": "Guntur District",
+      "addressCountry": "India"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where is Amaravathi located?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Amaravathi is the capital region of Andhra Pradesh, located between Vijayawada and Guntur, developed under the CRDA zone."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are these plots CRDA approved?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, all open plots promoted by MyProperty.Homes in Amaravathi are CRDA-approved with clear title and layout approvals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What amenities are available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each layout includes 40 ft CC roads, underground drainage, parks, avenue plantation, and street lighting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the starting price of open plots?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The open plots in Amaravathi start from ₹15,000 per sq. yd onwards, depending on location and layout size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which landmarks are nearby?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nearby landmarks include Amaravathi Secretariat, VIT-AP University, SRM University, and the upcoming capital zone developments."
+        }
+      }
+    ]
+  }
+]
