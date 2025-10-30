@@ -2,19 +2,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebSite",
-      "@id": "https://myproperty.homes/#website",
-      "name": "MyProperty.Homes",
-      "url": "https://myproperty.homes",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://myproperty.homes/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
       "@type": "Organization",
-      "@id": "https://myproperty.homes/#organization",
       "name": "MyProperty.Homes",
       "url": "https://myproperty.homes",
       "logo": {
@@ -23,71 +11,132 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+919160704442",
+        "telephone": "+91-9160704442",
         "contactType": "sales",
-        "areaServed": "IN"
+        "areaServed": ["Andhra Pradesh", "Telangana", "India"],
+        "availableLanguage": ["English", "Telugu"]
       },
       "sameAs": [
         "https://www.facebook.com/mypropertyhomes",
-        "https://www.instagram.com/myproperty.homes"
+        "https://www.instagram.com/myproperty.homes",
+        "https://www.linkedin.com/company/mypropertyhomes"
       ]
     },
-
-    /* --- AMARAVATHI --- */
+    {
+      "@type": "WebSite",
+      "name": "MyProperty.Homes",
+      "url": "https://myproperty.homes",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://myproperty.homes/search?query={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
     {
       "@type": "RealEstateListing",
-      "@id": "https://myproperty.homes/bhavadeep-sai-infra-open-plots-in-amaravathi-capital-region#listing",
-      "name": "Bhavadeep Sai Infra Open Plots in Amaravathi – MyProperty.Homes",
-      "description": "DTCP/CRDA approved open plots for sale by Bhavadeep Sai Infra in Amaravathi Capital Region. Verified plots with clear title, site visit, and registration support.",
+      "name": "Bhavadeep Sai Infra – CRDA Approved Open Plots in Amaravathi",
       "url": "https://myproperty.homes/bhavadeep-sai-infra-open-plots-in-amaravathi-capital-region",
-      "price": "3699",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "areaServed": { "@type": "Place", "name": "Amaravathi" },
+      "description": "CRDA-approved open plots for sale in Amaravathi Capital Region by Bhavadeep Sai Infra. Developed layout, clear title, and high growth potential.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amaravathi",
+        "addressRegion": "Andhra Pradesh",
+        "addressCountry": "India"
+      },
       "seller": {
-        "@type": "Organization",
+        "@type": "RealEstateAgent",
         "name": "MyProperty.Homes",
-        "telephone": "+919160704442",
-        "url": "https://myproperty.homes"
+        "telephone": "+91-9160704442"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://myproperty.homes/bhavadeep-sai-infra-open-plots-in-amaravathi-capital-region"
       }
     },
-
-    /* --- KANCHIKACHERLA --- */
     {
       "@type": "RealEstateListing",
-      "@id": "https://myproperty.homes/chaturbuja-infra-open-plots-in-kanchikacherla#listing",
-      "name": "Chaturbuja Infra Open Plots in Kanchikacherla – MyProperty.Homes",
-      "description": "CRDA approved open plots near Kanchikacherla by Chaturbuja Infra. Prime location plots with clear title, road connectivity, and easy EMI options.",
+      "name": "Chaturbuja Infra – DTCP Approved Open Plots in Kanchikacherla",
       "url": "https://myproperty.homes/chaturbuja-infra-open-plots-in-kanchikacherla",
-      "price": "11000",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "areaServed": { "@type": "Place", "name": "Kanchikacherla" },
+      "description": "Premium DTCP-approved open plots by Chaturbuja Infra near Kanchikacherla. Excellent location, clear documentation, and growth-ready venture.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kanchikacherla",
+        "addressRegion": "Krishna District, Andhra Pradesh",
+        "addressCountry": "India"
+      },
       "seller": {
-        "@type": "Organization",
+        "@type": "RealEstateAgent",
         "name": "MyProperty.Homes",
-        "telephone": "+919160704442",
-        "url": "https://myproperty.homes"
+        "telephone": "+91-9160704442"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://myproperty.homes/chaturbuja-infra-open-plots-in-kanchikacherla"
       }
     },
-
-    /* --- PAMARRU --- */
     {
       "@type": "RealEstateListing",
-      "@id": "https://myproperty.homes/mypropertyhomes-open-plots-in-pamarru#listing",
-      "name": "MyProperty.Homes Open Plots in Pamarru – DTCP Approved Layouts",
-      "description": "DTCP approved open plots in Pamarru, Krishna District. Ideal for investment and housing. Clear documents, verified layouts, and site visit support.",
+      "name": "MyPropertyHomes Open Plots in Pamarru – DTCP Approved Layout",
       "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-pamarru",
-      "price": "3699",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "areaServed": { "@type": "Place", "name": "Pamarru" },
+      "description": "DTCP-approved open plots in Pamarru with clear title and immediate registration. Ideal for investment and residential development.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pamarru",
+        "addressRegion": "Krishna District, Andhra Pradesh",
+        "addressCountry": "India"
+      },
       "seller": {
-        "@type": "Organization",
+        "@type": "RealEstateAgent",
         "name": "MyProperty.Homes",
-        "telephone": "+919160704442",
-        "url": "https://myproperty.homes"
+        "telephone": "+91-9160704442"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://myproperty.homes/mypropertyhomes-open-plots-in-pamarru"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are the plots in Amaravathi CRDA approved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all Amaravathi open plots listed under Bhavadeep Sai Infra are CRDA-approved and ready for registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer EMI or installment plans for plot purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, flexible EMI and installment options are available through our sales partners for selected ventures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "పామర్రులో స్థలాలు రిజిస్ట్రేషన్ కి సిద్ధంగా ఉన్నాయా?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "అవును, పామర్రులోని మైప్రాపర్టీ హోమ్స్ ప్లాట్లు డీటీసీపీ ఆమోదంతో తక్షణ రిజిస్ట్రేషన్‌కి సిద్ధంగా ఉన్నాయి."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to schedule a site visit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call +91-9160704442 or visit https://myproperty.homes to book your free site visit across our Amaravathi, Pamarru, and Kanchikacherla ventures."
+          }
+        }
+      ]
     }
   ]
 }
